@@ -1,1 +1,6 @@
-# freeradius-3.0.21-ctm
+## 编译
+``` bash
+./configure
+make
+make install
+```
