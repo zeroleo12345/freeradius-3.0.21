@@ -48,23 +48,3 @@ icon.png
 *.key
 
 # Autoconf and libtool output
-build
-config.status
-*confdefs.h
-*conftest*
-*confcache
-Make.inc
-libtool
-autom4te.cache
-config.guess
-config.sub
-config.h
-src/main/radattr
-src/modules/lib/
-warnings.txt
-
-# Analyzer output
-/*.plist
-
-# rpm packages
-rpmbuild/
