@@ -48,3 +48,4 @@ icon.png
 *.key
 
 # Autoconf and libtool output
+.idea/
