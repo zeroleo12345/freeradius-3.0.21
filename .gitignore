@@ -49,3 +49,5 @@ icon.png
 
 # Autoconf and libtool output
 .idea/
+*.status
+build/
