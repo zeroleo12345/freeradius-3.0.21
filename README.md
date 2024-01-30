@@ -2,12 +2,11 @@
 ``` bash
 cd /app/third_party/freeradius-3.0.21
 
-./configure --build=aarch64-unknown-linux-gnu
+make clean
 
-./configure --build=x86_64-unknown-linux-gnu
+./configure
 
 make
-make install
 
 ls /app/third_party/freeradius-3.0.21/build/bin/
 dhcpclient  local  map_unit  radattr  radclient  radeapclient  radiusd radmin  radwho  rbmonkey  smbencrypt  unittest
